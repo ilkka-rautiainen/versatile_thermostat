@@ -71,8 +71,8 @@ class PITemperatureRegulator:
         # Calculate the sum of error (I)
         # Discussion #384. Finally don't reset the accumulated error but smoothly reset it if the sign is inversed
         # If the error have change its sign, reset smoothly the accumulated error
-        if error * self.accumulated_error < 0:
-            self.accumulated_error = self.accumulated_error / 2.0
+        #if error * self.accumulated_error < 0:
+        #    self.accumulated_error = self.accumulated_error / 2.0
 
         self.accumulated_error += error
 
