@@ -1,6 +1,6 @@
 {
-  "domain": "versatile_thermostat",
-  "name": "Versatile Thermostat",
+  "domain": "versatile_thermostat_fork",
+  "name": "Versatile Thermostat fork",
   "codeowners": [
     "@jmcollin78"
   ],
